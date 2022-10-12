@@ -1,7 +1,61 @@
-@charset "UTF8";
+@charset "UTF-8";
 
-/*tablet/*
+:root{
+    --c6: rgb(231, 231, 231);
+}
 
-/*pc/*
+/*tablet*/
+@media screen and (min-width: 769px) and (max-width:992px){
+    body{
+        background-color: var(--c6);
+    }
+        header{
+        margin: 0px;
+    }
+    
+    main{
+        padding: 0px;
+        margin: auto;
+        max-width: 700px;
+    }
+    iframe{
+        max-width: 700px;
+    }
+}
+/*pc*/
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body{
+        background-color: var(--c6);
+    }
+    header{
+        margin: 0px;
 
-/*telas grandes/*
+    }
+    main{
+        padding: 0px;
+        margin: auto;
+        max-width: 900px;
+    }
+    iframe{
+        max-width: 900px;
+    }
+}
+/*telas grandes*/
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: var(--c6);
+    }
+    header{
+        margin: 0px;
+
+    }
+    main{
+        padding: 0px;
+        max-width: 1100px;
+        margin: auto;
+        float: inherit;
+    }
+    iframe{
+        max-width: 1100px;
+    }
+}

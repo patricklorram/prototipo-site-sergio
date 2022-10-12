@@ -1,4 +1,4 @@
-@charset "UTF8";
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -15,6 +15,7 @@
     --c3: #F4D35E;
     --c4: #2E1760;
     --c5: #171738;
+    --c6: rgb(231, 231, 231);
 
     --f1: 'Open Sans', sans-serif;
     --f2: 'Inter', sans-serif;
@@ -68,6 +69,7 @@ div#img1{
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 20vh; 
+    background-size: cover;
     
 }
 div#img2{
@@ -91,10 +93,9 @@ background-attachment: scroll;
 background-position: center center;
 padding: 10px 40px 10px 40px;
 line-height: 1.5em;
-color: var(--c1);
-}
-div#bg{
-    background-image: url(../imagens/splash-png\ \(2\).png);
+color: var(--c6);
+max-width: 400;
+margin: auto;
 }
 main h2{
     padding-top: 10px;
@@ -107,6 +108,7 @@ main h2{
 main p{
     padding-bottom: 10px;
     font-family: var(--f2);
+    color: var(--c1);
 }
 
 main iframe{
@@ -114,8 +116,8 @@ main iframe{
     margin: auto;
     display: block;
     position: relative;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.414);
-    
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.414);
+    margin-bottom: 10px;
 }
 p#local{
     text-align: center;
