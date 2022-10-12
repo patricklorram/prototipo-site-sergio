@@ -7,7 +7,7 @@
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
     iframe{
-        max-width: 400px;
+        max-width: 320px;
     }
 }
 /*tablet*/
