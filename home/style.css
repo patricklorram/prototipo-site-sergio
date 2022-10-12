@@ -1,0 +1,134 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --c1: #555b62;
+    --c2: #3F88C5;
+    --c3: #F4D35E;
+    --c4: #2E1760;
+    --c5: #171738;
+
+    --f1: 'Open Sans', sans-serif;
+    --f2: 'Inter', sans-serif;
+    --f3: 'Lato', sans-serif;
+}
+html{
+    min-height: 100%;
+}
+
+header{
+color: var(--c2);
+padding: 5px 10px 5px 40px;
+font-variant: small-caps;
+
+background-color: white;
+
+text-align: center;
+}
+header h1{
+    font-family: var(--f3);
+}
+
+nav{
+    text-align: center;
+    color: var(--c4);
+    padding: 10px 10px;
+    margin: 0px 40px 0px 40px;
+    display: block;
+}
+nav a{
+    display: none;
+    color: var(--c4);
+    text-decoration: none;
+}
+nav a:hover{
+   
+    color: var(--c2);
+}
+div p{
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.54);
+    display: inline-block;
+    padding: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.767);
+}
+div#img1{
+    background-image: url(../imagens/im4\ m.jpg);
+    box-shadow: inset -3px 7px 10px rgba(0, 0, 0, 0.397);
+    background-position: right center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20vh; 
+    
+}
+div#img2{
+    background-image: url(../imagens/im3\ m.jpg);
+    box-shadow:inset -3px 7px 10px rgba(0, 0, 0, 0.397);
+    background-position: right center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20vh;  
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: scroll;
+    background-size: cover; 
+    background-position: center center;
+    margin-bottom: 10px;
+    }
+main{
+background-color: rgb(231, 231, 231);
+background-size: cover;
+background-attachment: scroll;
+background-position: center center;
+padding: 10px 40px 10px 40px;
+line-height: 1.5em;
+color: var(--c1);
+}
+div#bg{
+    background-image: url(../imagens/splash-png\ \(2\).png);
+}
+main h2{
+    padding-top: 10px;
+    padding-left: 0px;
+    color: var(--c2);
+    font-family: var(--f3);
+    padding-bottom: 10px;
+    text-align: center;
+}
+main p{
+    padding-bottom: 10px;
+    font-family: var(--f2);
+}
+
+main iframe{
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.414);
+    
+}
+p#local{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--c2);
+    color: white;
+    padding: 3px;
+    font-family: var(--f3);
+    font-size: .7em;
+}
+footer h3{
+    padding-bottom: 0px;
+}
