@@ -48,7 +48,7 @@ nav{
     text-align: center;
     color: var(--c4);
     padding: 10px 10px;
-    margin: 0px 40px 0px 40px;
+    margin: 
     display: block;
 }
 nav a{
@@ -97,7 +97,7 @@ background-color: rgb(231, 231, 231);
 background-size: cover;
 background-attachment: scroll;
 background-position: center center;
-padding: 10px 40px 10px 40px;
+padding: 20px;
 line-height: 1.5em;
 color: var(--c6);
 max-width: 400;
