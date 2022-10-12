@@ -4,6 +4,12 @@
     --c6: rgb(231, 231, 231);
 }
 
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+    iframe{
+        max-width: 400px;
+    }
+}
 /*tablet*/
 @media screen and (min-width: 769px) and (max-width:992px){
     body{
